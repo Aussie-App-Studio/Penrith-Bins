@@ -18,7 +18,7 @@ android {
     namespace = "au.com.penrithbinapp"
     compileSdk = 36
     defaultConfig {
-        applicationId = "au.com.penrithbinapp"
+        applicationId = "au.com.penrithbins"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
