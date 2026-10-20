@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#d2d2dc</color>
+    <color name="ic_launcher_simple_bin_background">#d2d2dc</color>
+    <color name="ic_launcher_bin_truck_background">#fae600</color>
+    <color name="ic_launcher_tech_bin_background">#001432</color>
+    <color name="ic_launcher_clock_background">#ffffff</color>
+    <color name="ic_launcher_dark_alarm_background">#1e2832</color>
+    <color name="ic_launcher_letter_p_background">#000000</color>
+</resources>

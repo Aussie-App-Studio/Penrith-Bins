@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="84dp"
+    android:height="84dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Tinted circular backdrop + subtle border -->
+    <path
+        android:fillColor="#2638B429"
+        android:strokeColor="#6638B429"
+        android:strokeWidth="1.8"
+        android:pathData="M 3,50 a 47,47 0 1,0 94,0 a 47,47 0 1,0 -94,0" />
+
+    <!-- Base shadow oval -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M 23.5,83.5 a 26.5,3.1 0 1,0 53,0 a 26.5,3.1 0 1,0 -53,0" />
+
+    <!-- Tapered bin body -->
+    <path
+        android:fillColor="#283339"
+        android:pathData="M 26.6,30.7 L 73.4,30.7 L 67.2,79.1 L 32.8,79.1 Z" />
+
+    <!-- Left body highlight -->
+    <path
+        android:fillColor="#324047"
+        android:pathData="M 28.2,31.5 L 48.4,31.5 L 46.1,78.3 L 33.6,78.3 Z" />
+
+    <!-- Vertical ribs -->
+    <path
+        android:fillColor="#1D252A"
+        android:pathData="M 39.1,37 L 42.6,37 L 42.6,71.3 L 39.1,71.3 Z" />
+    <path
+        android:fillColor="#1D252A"
+        android:pathData="M 48.4,37 L 51.9,37 L 51.9,71.3 L 48.4,71.3 Z" />
+    <path
+        android:fillColor="#1D252A"
+        android:pathData="M 57.8,37 L 61.3,37 L 61.3,71.3 L 57.8,71.3 Z" />
+
+    <!-- Green emblem strip on body -->
+    <path
+        android:fillColor="#38B429"
+        android:pathData="M 39.7,47.1 L 60.2,47.1 Q 63.2,47.1 63.2,50.1 L 63.2,53.5 Q 63.2,56.5 60.2,56.5 L 39.7,56.5 Q 36.7,56.5 36.7,53.5 L 36.7,50.1 Q 36.7,47.1 39.7,47.1 Z" />
+
+    <!-- Green lid dome -->
+    <path
+        android:fillColor="#38B429"
+        android:pathData="M 29,19.8 L 71,19.8 Q 75,19.8 75,23.8 L 75,28.4 L 25,28.4 L 25,23.8 Q 25,19.8 29,19.8 Z" />
+
+    <!-- Green overhanging lid rim -->
+    <path
+        android:fillColor="#38B429"
+        android:pathData="M 24.1,25.3 L 75.9,25.3 Q 78.9,25.3 78.9,28.3 L 78.9,28.5 Q 78.9,31.5 75.9,31.5 L 24.1,31.5 Q 21.1,31.5 21.1,28.5 L 21.1,28.3 Q 21.1,25.3 24.1,25.3 Z" />
+
+    <!-- Lid bottom shadow line -->
+    <path
+        android:fillColor="#38000000"
+        android:pathData="M 22.7,30.0 L 77.3,30.0 L 77.3,31.9 L 22.7,31.9 Z" />
+
+    <!-- Left wheel -->
+    <path
+        android:fillColor="#141A1D"
+        android:pathData="M 24.7,78.3 a 7.4,7.4 0 1,0 14.8,0 a 7.4,7.4 0 1,0 -14.8,0" />
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M 29.1,78.3 a 3.0,3.0 0 1,0 6.0,0 a 3.0,3.0 0 1,0 -6.0,0" />
+
+    <!-- Right wheel -->
+    <path
+        android:fillColor="#141A1D"
+        android:pathData="M 60.5,78.3 a 7.4,7.4 0 1,0 14.8,0 a 7.4,7.4 0 1,0 -14.8,0" />
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M 64.9,78.3 a 3.0,3.0 0 1,0 6.0,0 a 3.0,3.0 0 1,0 -6.0,0" />
+</vector>

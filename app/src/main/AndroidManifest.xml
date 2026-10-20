@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:windowSoftInputMode="adjustResize"
+        android:theme="@style/Theme.PenrithBinApp">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity-alias
+            android:name=".LauncherDefault"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherSimpleBin"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_simple_bin"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_simple_bin_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherBinTruck"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_bin_truck"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_bin_truck_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherTechBin"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_tech_bin"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_tech_bin_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherClock"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_clock"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_clock_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherDarkAlarm"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_dark_alarm"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_dark_alarm_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".LauncherLetterP"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_letter_p"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_letter_p_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <receiver
+            android:name=".notifications.BinReminderReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="au.com.penrithbinapp.ACTION_BIN_REMINDER" />
+                <action android:name="au.com.penrithbinapp.ACTION_MARK_BINS_PUT_OUT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".widget.BinAppWidgetProvider"
+            android:exported="true"
+            android:label="@string/widget_compact_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/bin_app_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.BinIconsWidgetProvider"
+            android:exported="true"
+            android:label="@string/widget_icons_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/bin_icons_widget_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

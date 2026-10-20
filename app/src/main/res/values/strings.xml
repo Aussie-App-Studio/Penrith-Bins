@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Penrith Bins</string>
+    <string name="widget_compact_label">Next Bins (Compact Pills)</string>
+    <string name="widget_compact_description">Compact 4×1 card showing your next collection date and Red, Yellow &amp; Green bin pills.</string>
+    <string name="widget_icons_label">Next Bins (Wheelie Bin Icons)</string>
+    <string name="widget_icons_description">4×2 hero card featuring the Red, Yellow &amp; Green wheelie bin illustrations from inside the app.</string>
+
+    <!-- Support the Developer / Donation -->
+    <string name="back">Back</string>
+    <string name="share_via">Share via</string>
+    <string name="support">Support</string>
+    <string name="support_development">Support Development</string>
+    <string name="support_development_desc">Help keep the app ad-free!</string>
+    <string name="support_developer_title">Support the Developer</string>
+    <string name="thank_you_title">Thank You! ❤️</string>
+    <string name="thank_you_message">Thanks for supporting a local who is trying to make our corner of the world a little bit better. It\'s fun to have some extra $$ to spend on the kids. If you\'d like to say hi, I attend the Hope Christian Community Church in St Marys. Swing past one Sunday if you\'d like. :)</string>
+    <string name="youre_welcome">You\'re Welcome!</string>
+    <string name="connecting_play_store">Connecting to Play Store...</string>
+    <string name="retry_connection">Retry Connection</string>
+    <string name="free_support_available">Free support options are still available below!</string>
+    <string name="help_support_family">Help Support My Family</string>
+    <string name="support_family_desc">Your support helps me keep building great apps while raising my kids. ❤️</string>
+    <string name="thanks_purchased">Thanks!</string>
+    <string name="free_ways_to_support">Free Ways to Support</string>
+    <string name="spread_the_word">Spread the Word</string>
+    <string name="spread_the_word_desc">Share this app with friends</string>
+    <string name="share_app_text">Check out Penrith Bins! It tracks your Red, Yellow &amp; Green bin collection days and reminders. Download it here: https://play.google.com/store/apps/details?id=</string>
+    <string name="check_other_apps">Check My Other Apps</string>
+    <string name="check_other_apps_desc">See what else I\'ve built</string>
+    <string name="rate_app">Rate the App</string>
+    <string name="rate_app_desc">Leave a review on Play Store</string>
+    <string name="say_thanks_in_person">Say Thanks in Person</string>
+    <string name="say_thanks_in_person_desc">Visit Hope Christian Community Church in St Marys</string>
+    <string name="unable_to_start_purchase">Unable to start purchase</string>
+</resources>
